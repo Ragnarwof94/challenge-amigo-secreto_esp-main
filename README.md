@@ -6,7 +6,7 @@
 
 Este es un proyecto para realizar un sorteo de amigo secreto de manera sencilla.
 
-# 🔗 **Página GitHub Pages:** [Amigo Secreto](https://rodolfo123.github.io/amigo-secreto/)
+# 🔗 **Página GitHub Pages:** [Amigo Secreto](https://ragnarwof94.github.io/challenge-amigo-secreto_esp-main/)
 
 Este proyecto es una aplicación sencilla que permite a los usuarios ingresar nombres de amigos, realizar un sorteo aleatorio y determinar quién es el "amigo secreto". El juego es interactivo y permite agregar nombres, verificar si un nombre ya está en la lista y mostrar el resultado del sorteo.
 
