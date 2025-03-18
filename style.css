@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-primary: #df1919;
+    --color-secondary: #1a1a1a;
+    --color-tertiary: #df1825;
+    --color-button: #df1825;
+    --color-button-hover: #d27314;
+    --color-text: #f3efef;
+    --color-white: #141313;
 }
 
 /* Estilos generales */
@@ -58,14 +58,14 @@ body {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
-    color: var(--color-white);
+    color: var(--color-text);
 }
 
 .section-title {
     font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
-    color: var(--color-primary);
+    color: var(--color-text);
     margin: 10px 0;
     text-align: center;
 }
@@ -122,7 +122,7 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: var(--color-button-hover);
 }
 
 /* Listas */
