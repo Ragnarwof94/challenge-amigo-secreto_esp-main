@@ -44,3 +44,17 @@ function mostrarListaAmigos() {
     });
 }
 
+// Función para sortear un amigo secreto
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        alert("Debe agregar al menos un amigo.");
+        return;
+    }
+
+    // Seleccionar un nombre aleatorio
+    const amigoSecreto = amigos[Math.floor(Math.random() * amigos.length)];
+
+    // Mostrar el nombre del amigo secreto
+    const resultado = document.getElementById('resultado');
+    resultado.textContent = `El amigo secreto es: ${amigoSecreto}`;
+}
